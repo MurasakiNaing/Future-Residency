@@ -1,0 +1,15 @@
+.forgot-pw {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.forgot-pw:hover {
+    color: rgba(0, 47, 148, 1)!important;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.log-in-text {
+    margin-left: 1rem;
+}

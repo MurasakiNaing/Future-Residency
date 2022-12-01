@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.carousel a {
+    text-decoration: none;
+    color: rgba(0, 47, 148, 1);
+}
+
+body {
+    color: rgba(0, 47, 148, 1);
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+/* navigation bar */
+
+.logo {
+    height: 100%;
+    width: 100px;
+}
+
+.hamburger-menu:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.nav-item {
+    font-size: 1.19rem;
+}
+
+.nav-link {
+    color: rgba(0, 47, 148, 0.75);
+}
+
+.nav-link:hover {
+    color: rgba(0, 47, 148, 1);
+}
+
+.navbar-nav .nav-link.active {
+    color: rgba(0, 47, 148, 1);
+}
+
+/* Card */
+
+.card {
+    border-radius: 0;
+}
+
+.card  img {
+    border-radius: 0;
+}
+
+/* Input */
+
+.grouped-input {
+    border: 1px solid black;
+}
+
+.input:focus {
+    border: 1px solid black;
+    border-radius: 0;
+    box-shadow: none;
+    outline: none;
+}
+
+/* Button*/
+
+.navbar .grouped-input .btn {
+    cursor: pointer;
+    color: rgba(0, 47, 148, 1);
+}
+
+.grouped-input .btn {
+    border: none;
+    cursor: auto;
+}
+
+.card .btn, form > .btn {
+    color: rgba(0, 47, 148, 1);
+    border-color: rgba(0, 47, 148, 1);
+}
+
+.card .btn:hover, form > .btn:hover {
+    background-color: rgba(0, 47, 148, 1);
+    border-color: rgba(0, 47, 148, 1);
+    color: #fff;
+}
+
+.btn {
+    border-radius: 0;
+}
+
+.btn:hover {
+    border-color: #000;
+}
+
+/* Footer */
+.footer {
+    background-color: rgba(0, 47, 148, 1)!important;
+    margin-top: 5rem;
+}
+
+.download-btn {
+    margin-top: 1rem;
+}
+
+.social-media {
+    text-decoration: none;
+    color: white;
+    transition: ease-in-out 200ms;
+}
+
+.social-media:hover {
+    color: 	rgba(3, 255, 150, 1);
+}
