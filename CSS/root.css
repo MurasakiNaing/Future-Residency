@@ -5,15 +5,18 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+/* Carousel Links */
 .carousel a {
     text-decoration: none;
     color: rgba(0, 47, 148, 1);
 }
 
+/* Body Text color*/
 body {
     color: rgba(0, 47, 148, 1);
 }
 
+/* Border Radius */
 .form-control {
     border-radius: 0;
 }
