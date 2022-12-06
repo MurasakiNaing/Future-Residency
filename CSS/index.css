@@ -2,7 +2,7 @@
 #hero {
     background-image: url("../Images/hero.webp");
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     background-position: center;
     height: 409px;
     position: relative;
